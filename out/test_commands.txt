@@ -1,0 +1,27 @@
+OPEN Howdy
+Howdy <- SELECT Subject == CSCE + SELECT Subject != CSCE PROJECT Instructors RENAME multidiscipline_instructors
+Howdy <- SELECT Subj == CSCE SELECT Crse == 315 PROJECT Title,Days RENAME days_prog_studio_taught
+Howdy <- SELECT Crse > 299 PROJECT Instructor RENAME upper_level_profs
+Howdy <- SELECT Days == MWF SELECT Subj == CSCE PROJECT Instructor RENAME MWF_compsci_classes
+
+CREATE TABLE animals name VARCHAR 20,kind VARCHAR 08,years INTEGER PRIMARY KEY name
+INSERT INTO animals VALUES FROM Joe,cat,04
+INSERT INTO animals VALUES FROM Spot,dog,10
+INSERT INTO animals VALUES FROM Snoopy,dog,03
+INSERT INTO animals VALUES FROM Tweety,bird,01
+INSERT INTO animals VALUES FROM Joe,bird,03
+
+SHOW animals
+
+animals <- SELECT kind == dog RENAME dogs
+animals <- SELECT kind == dog SELECT years > 10 RENAME old_dogs
+
+CREATE TABLE species kind VARCHAR 10 PRIMARY KEY kind
+
+INSERT INTO species VALUES FROM RELATION PROJECT kind 
+
+WRITE animals
+CLOSE animals
+CLOSE Howdy
+
+EXIT
