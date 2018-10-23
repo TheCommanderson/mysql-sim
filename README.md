@@ -10,6 +10,6 @@
   
 ## BUGS  
 1. All integers must be at least 2 digits (e.g. if you want to enter a 7 it must be 07)  
-2. Table output is ordered alphabetically, not by how the file is saved in the .db  
-3. Product is under construction  
+2. Table output is not ordered by how the file is saved in the .db file.  
+3. Product does not work 
 4. The interface is ugly AF right now, needs work  
