@@ -1,3 +1,7 @@
+# README  
+## DEPENDENCIES  
+* ANTLR4
+
 ## RUNNING  
 1. Navigate to directory titled "out"  
 2. Replce "test_commands.txt" with your list of commands to run  
